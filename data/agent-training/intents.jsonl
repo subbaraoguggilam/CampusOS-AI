@@ -1,0 +1,8 @@
+{"text":"I need a bonafide certificate for my bank account","intent":"BONAFIDE","fields":{"reason":"bank account"}}
+{"text":"I need proof that I am a student","intent":"BONAFIDE","fields":{}}
+{"text":"I want leave from 15/09/2026 to 20/09/2026 because I am going home","intent":"LEAVE","fields":{"from_date":"15/09/2026","to_date":"20/09/2026","reason":"I am going home"}}
+{"text":"I will be absent for three days due to illness","intent":"LEAVE","fields":{"reason":"illness"}}
+{"text":"I need a fee concession and I have an income certificate","intent":"FEE_CONCESSION","fields":{}}
+{"text":"Please give me an internship NOC for my company","intent":"INTERNSHIP_NOC","fields":{"company":"my company"}}
+{"text":"I want to apply for revaluation of my exam","intent":"REVALUATION","fields":{}}
+{"text":"My semester result was published on 01/09/2026 and I want revaluation","intent":"REVALUATION","fields":{"result_date":"01/09/2026"}}

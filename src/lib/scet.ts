@@ -1,0 +1,65 @@
+export const COLLEGE = {
+  name: "Swarnandhra College",
+  legalName: "Swarnandhra College of Engineering and Technology (Autonomous)",
+  location: "Narsapur, Andhra Pradesh",
+  affiliation: "Permanently affiliated to JNTUK, Kakinada",
+  code: "SWRN",
+  website: "https://www.swarnandhra.ac.in",
+  email: "info@swarnandhra.ac.in",
+};
+
+export const STUDENT_PROFILE = {
+  admissionId: "4130",
+  enrollmentNumber: "",
+  rollNumber: "23A21A0501",
+  firstName: "GUGGILAM",
+  middleName: "",
+  lastName: "SUBBA RAO",
+  name: "GUGGILAM SUBBA RAO",
+  programme: "B.Tech",
+  branch: "Computer Science and Engineering",
+  batch: "2023 - 2024",
+  currentYear: "4",
+  currentSemester: "7",
+  section: "A",
+  dateOfBirth: "01/08/2004",
+  gender: "Male",
+  nationality: "Indian",
+  status: "Active",
+  fatherName: "GUGGILAM RAMESH BABU",
+  fatherOccupation: "Business",
+  email: "cse20231@campus.edu",
+  mobile: "",
+};
+
+export const ATTENDANCE = {
+  final: 91.5,
+  primary: 91.5,
+  classAverage: 67,
+  attended: 452,
+  total: 494,
+  semester: 7,
+  subjects: [
+    { name: "Agile Methodologies", value: 94, tone: "bg-blue-500" },
+    { name: "Constitution of India", value: 92, tone: "bg-green-500" },
+    { name: "CRT Aptitude", value: 86, tone: "bg-orange-500" },
+    { name: "CRT Technical", value: 90, tone: "bg-pink-500" },
+    { name: "CRT Verbal", value: 88, tone: "bg-yellow-500" },
+    { name: "Human Resources & Project Management", value: 91, tone: "bg-red-500" },
+    { name: "INTEL", value: 95, tone: "bg-blue-500" },
+    { name: "Introduction to Smart Manufacturing", value: 89, tone: "bg-green-500" },
+    { name: "Natural Language Processing", value: 93, tone: "bg-orange-500" },
+    { name: "Prompt Engineering Lab", value: 96, tone: "bg-pink-500" },
+    { name: "Solid Waste Management", value: 90, tone: "bg-yellow-500" },
+  ],
+};
+
+export const ACADEMIC_JOURNEY = [
+  { semester: "Semester 7", status: "Active · Current", course: "Computer Science and Engineering", result: "Course Reg: Completed" },
+  { semester: "Semester 6", status: "Promoted", course: "Computer Science and Engineering", result: "Course Reg: Completed" },
+  { semester: "Semester 5", status: "Promoted", course: "Computer Science and Engineering", result: "Course Reg: Pending" },
+  { semester: "Semester 4", status: "Promoted", course: "Computer Science and Engineering", result: "Course Reg: Pending" },
+  { semester: "Semester 3", status: "Promoted", course: "Computer Science and Engineering", result: "Course Reg: Pending" },
+  { semester: "Semester 2", status: "Promoted", course: "Computer Science and Engineering", result: "Course Reg: Pending" },
+  { semester: "Semester 1", status: "Promoted", course: "Computer Science and Engineering", result: "Course Reg: Pending" },
+];
